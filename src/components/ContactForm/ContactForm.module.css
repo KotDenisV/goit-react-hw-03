@@ -1,5 +1,5 @@
 .formWrapper {
-  min-height: 100vh;
+  /* min-height: 40vh; */
   display: flex;
   justify-content: start;
   /* align-items: start; */
@@ -11,15 +11,14 @@
 .form {
   display: flex;
   gap: 15px;
-  width: 40vw;
+  width: 20vw;
   flex-direction: column;
-  padding: 20px 40px;
-  /* box-shadow: 0 0 8px 8px rgb(144, 196, 238); */
+
   & button {
     background-color: rgba(205, 219, 219, 0.881);
     color: rgb(18, 17, 17);
     padding: 10px 12px;
-    border: none;
+    border: 1px solid #171616;
     font-weight: bold;
     font-size: 16px;
     border-radius: 8px;
@@ -36,4 +35,5 @@
 .input {
   padding: 5px;
   border-radius: 8px;
+  width: 20vw;
 }
